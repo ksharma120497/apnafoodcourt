@@ -1,7 +1,8 @@
 import React from "react";
 import {Login} from "./user-auth/Login"
 import { Link } from "react-router-dom";
-import { Box } from "@mui/material";
+import { Button } from "@mui/material";
+import { Menu } from "./menu/Menu";
 
 const containerStyle = {
     display: "flex",
@@ -10,15 +11,23 @@ const containerStyle = {
     gap: "30px",
     alignContent: "center",
     border: "3px solid black",
+    borderRadius:"30px",
     padding: "10px",
     margin: "20% 20% 20% 20%",
 }
 
 const MainContainer = ()=>{
-return(
+    const [view, setView] = React.useState("user-auth");
+    console.log(view)
+if(view.username==="admin" && view.password==="admin")
+    return(
+        <Menu/>
+    );
+    
+ return(
     <div style={containerStyle}>
-        <Login/>
-        <Link to={"/signup"}>Dont already have an account? Create here</Link>
+        <Login setView={setView}/>
+        <Link to={"/signup"}><Button>Create a new Account</Button></Link>
     </div>
 )
 
