@@ -5,16 +5,15 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import { Login } from './components/user-auth/Login';
-import {SignUp} from './components/user-auth/SignUp';
+import Contact from './components/contacts/Contact';
+
 
 function App() {
   return (
     <div>
     <Routes>
       <Route path="/" element={<MainContainer/>}></Route>
-      <Route path="/login" element={<Login/>}></Route>
-      <Route path="/signup" element={<SignUp/>}></Route>
+      <Route path="/contact" element={<Contact/>}></Route>
     </Routes>
     </div>
   );
