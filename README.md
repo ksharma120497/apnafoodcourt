@@ -5,13 +5,12 @@ Tech Stack Used:
 2) Java Spring Boot for Backend services and APIs
 3) Netlify for Deployment
 
-Figma Design
+Figma Design - First Draft
 
-[Apna Food Court webpage.pdf](https://github.com/user-attachments/files/16380216/Apna.Food.Court.webpage.pdf)
+![image](https://github.com/user-attachments/assets/80bc0945-05c9-4eb5-b2ec-47674bc40455)
 
 
 Web application UI
-
 ![image](https://github.com/user-attachments/assets/46ee9f95-ec19-4c01-ab9c-cad46e8b10aa)
 
 
