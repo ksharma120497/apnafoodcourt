@@ -1,4 +1,4 @@
-Apna Food Court is cloud kitchen that is operated in a small area in Mumbai. This repository is dedicated to build and scale a web application for this cloud kitchen (https://apnafoodcourt.netlify.app/). 
+Apna Food Court is cloud kitchen that is operated in a small area in Mumbai. This cloud kitchen provides subscription tiffin services to the local office employees. This repository is dedicated to build and scale a web application for this cloud kitchen (https://apnafoodcourt.netlify.app/). We have purposely kept the UI as simple as possible, since this cloud kitchen targets users that are not tech savy and dont want to spend much of their time deciding what to order.
 
 Tech Stack Used:
 1) React 16 for Frontend 
